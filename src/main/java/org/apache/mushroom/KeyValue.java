@@ -5,6 +5,11 @@ public class KeyValue implements Comparable<KeyValue> {
     private byte[] value;
     private Op op;
 
+    // 在类中定义枚举类型
+    public enum Op {
+
+    }
+
     private long sequenceId;
 
 
