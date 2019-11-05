@@ -4,6 +4,7 @@ public class KeyValue implements Comparable<KeyValue> {
     private byte[] key;
     private byte[] value;
     private Op op;
+
     private long sequenceId;
 
 
